@@ -42,7 +42,7 @@ export default function MnemonicCreate() {
                 >
                     Create Seed Phrase
                 </button>
-                <h2 className='font-mono text-[rgb(221,112,112)] text-xl'>
+                <h2 className='font-mono pt-4 text-[rgb(221,112,112)] text-xl'>
                     Write it Down or save it somewhere safe
                 </h2>
             </div>

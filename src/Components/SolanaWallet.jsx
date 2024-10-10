@@ -13,7 +13,7 @@ export default function SolanaWallet (){
     const [showPrivateKey, setShowPrivateKey] = useState([]);  
     const { mnemonic } = location.state || {};  
 
-    // Function to delete a wallet
+   
     const deleteWallet = (index) => {
         const updatedPublicKeys = [...publicKeys];
         const updatedPvtKeys = [...pvtKeys];

@@ -83,7 +83,7 @@ export const EthWallet = () => {
 
                     
                     <button 
-                        className="ml-4 mt-4 text-black text-sm h-10 w-28 font-sans text-md rounded-lg bg-red-500 hover:drop-shadow-[0_0px_5px_rgba(255,0,0,1)]"
+                        className=" mt-4 text-black text-sm h-10 w-28 font-sans text-md rounded-lg bg-red-500 hover:drop-shadow-[0_0px_5px_rgba(255,0,0,1)]"
                         onClick={() => deleteWallet(index)}  
                     >
                         Delete Wallet
